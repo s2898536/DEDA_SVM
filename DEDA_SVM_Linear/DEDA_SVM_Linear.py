@@ -46,9 +46,12 @@ def plot_svm_linear(X, Y, penalty):
     fignum = fignum + 1
     
 plot_svm_linear(X, Y, 1000)
-plt.savefig('linear_1.png', transparent=True, dpi=200)
+plt.savefig('/Users/rafiqulakash/Downloads/linear_1.png',
+            transparent=True, dpi=200)
 plt.clf()
 
 plot_svm_linear(X, Y, 0.05)
-plt.savefig('linear_0.05.png', transparent=True, dpi=200)
+plt.savefig('/Users/rafiqulakash/Downloads/linear_1.png',
+            transparent=True, dpi=200)
+
 plt.clf()
